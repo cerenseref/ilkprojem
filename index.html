@@ -1,30 +1,50 @@
-<!DOCTYPE html>
-<html lang="tr">
+<html>
+  <head>
+    <title>Ana sayfa</title>
+    <style>
+      .container { /* etiketler için grup oluşturur */
+        max-width: 1200px; /* maksimum genişlik */
+        margin: 0 auto; /* üst ve alttan 0 boşluk, sol ve sağdan otomatik (ortalar) */
+      }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa</title>
-</head>
+      header {
+        background-color: lightblue;
+        padding: 1rem;
+      }
 
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Ana Sayfa</a>
-            <a href="hakkimda.html">Hakkımda</a>
-        </nav>
-    </header>
-    <section>
-        <h1>Ana Sayfa</h1>
+      section {
+        background-color: lightyellow;
+        padding: 1rem;
+      }
+
+      footer {
+        background-color: lightblue;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header class="container">
+      <nav>
+        <a href="index.html">Ana sayfa</a>
         <a href="hakkimda.html">Hakkımda</a>
+      </nav>
+    </header>
 
-        <p>Ana sayfaya hoşgeldiniz...</p>
+    <section class="container">
+      <h1>Ana sayfa</h1>
+      <a href="hakkimda.html"> Hakkımda </a>
+      
+      <p>Ana sayfaya hoş geldiniz..</p>
     </section>
-    <footer>
-        <p>Tasarım ve Kodlama : Ceren Şeref</p>
+
+    <footer class="container">
+      <p>Tasarım ve Kodlama: Ceren Şeref</p>
     </footer>
 
 
-</body>
-
+  </body>
 </html>
+
